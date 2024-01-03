@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/logo.2.png" type="">
+
+  <title> IADevs </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- nice select  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+    <div class="bg-box">
+      <img src="images/img-1.png" alt="">
+    </div>
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              IADevs
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mx-auto ">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Início </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="IAs.html">Inteligências Artificiais</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="funcionamento.html">Funcionamento do ChatGPT</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="api.html">API do ChatGPT <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="forum.html">Fórum</a>
+              </li>
+            </ul>
+            <div class="user_option">
+              <a href="login.html" class="user_link">
+                <i class="fa fa-user" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- food section -->
+
+  <section class="food_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>API do ChatGPT</h2>
+      </div>
+
+      <div class="container">
+        <div class="content">
+            <h2>O que é uma API?</h2>
+            <p style="font-size: 17px;">APIs (Interfaces de Programação de Aplicação) são mecanismos que possibilitam a comunicação entre dois componentes de software mediante um conjunto de definições e protocolos. Para ilustrar, considere o sistema de software de um instituto meteorológico, que armazena dados meteorológicos diários. Quando você utiliza uma aplicação de previsão do tempo no seu telefone, essa aplicação "conversa" com o sistema do instituto meteorológico por meio de APIs, permitindo que você visualize atualizações meteorológicas diárias no seu telefone. Em termos simples, o termo "Aplicação" em API se refere a qualquer software com uma função específica. A interface, neste contexto, pode ser entendida como um contrato de serviço entre duas aplicações. Esse contrato define a forma como as aplicações se comunicam por meio de solicitações e respostas. A documentação das respectivas APIs oferece informações detalhadas sobre como os desenvolvedores devem estruturar essas solicitações e respostas, proporcionando um guia para uma comunicação eficaz entre as aplicações.</p>
+        </div>
+
+        <div class="content">
+            <h2>Como funciona a API do ChatGPT?</h2>
+            <p>A API do ChatGPT funciona como uma interface de programação de aplicação (API) que permite a comunicação entre o seu sistema ou aplicação e o modelo de linguagem ChatGPT. Aqui está um resumo geral de como ela opera:</p>
+            <ul>
+                <li>Requisição de API: Você faz uma solicitação para a API do ChatGPT a partir do seu sistema ou aplicação. Isso geralmente é feito por meio de uma solicitação HTTP. </li>
+                <li>Parâmetros da Solicitação: Sua solicitação pode incluir parâmetros, como o texto da mensagem que você deseja enviar para o ChatGPT. Isso define o contexto ou a pergunta que você está fazendo ao modelo.</li>
+                <li>Processamento pelo Modelo: A API encaminha a sua solicitação para o modelo ChatGPT. O modelo processa o texto de entrada usando a arquitetura de rede neural pré-treinada e retorna uma resposta.</li>
+                <li>Resposta da API: A API envia de volta a resposta gerada pelo modelo como parte da resposta à sua solicitação.</li>
+                <li>Integração com sua Aplicação: Sua aplicação recebe a resposta da API e pode usá-la conforme necessário. Isso pode incluir exibir a resposta em uma interface do usuário, armazená-la em um banco de dados ou realizar outras ações programadas.</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>Códigos de exemplo (OpenAI):</h2>
+            <li>Exemplos de código para diferentes casos de uso:</li>
+            
+            <pre>
+                <code>
+                    // Exemplo de geração de texto usando OpenAI GPT-3
+                    const prompt = "Write a creative story about a futuristic city.";
+                    const response = await openai.Completion.create({
+                        model: "text-davinci-003",
+                        prompt: prompt,
+                        temperature: 0.8,
+                        max_tokens: 150,
+                    });
+                    console.log(response.choices[0].text.trim());
+                </code>
+            </pre>
+            
+            <pre>
+                <code>
+                    // Exemplo de tradução de idiomas usando OpenAI GPT-3
+                    const prompt = "Translate the following English text to Spanish: ";
+                    const response = await openai.Completion.create({
+                        model: "text-davinci-003",
+                        prompt: prompt,
+                        temperature: 0.7,
+                        max_tokens: 60,
+                    });
+                    console.log(response.choices[0].text.trim());
+                </code>
+            </pre>
+
+            <pre>
+                <code>
+                    // Exemplo de conversação interativa usando OpenAI Chat API
+                    const conversation = [
+                        { role: 'system', content: 'You are a helpful assistant.' },
+                        { role: 'user', content: 'Who won the world series in 2020?' },
+                        { role: 'assistant', content: 'The Los Angeles Dodgers won the World Series in 2020.' },
+                        { role: 'user', content: 'Where was it played?' },
+                        { role: 'assistant', content: 'The World Series in 2020 was played in Arlington, Texas at the Globe Life Field, which was the new home stadium for the Texas Rangers.' },
+                    ];
+
+                    const response = await openai.Completion.create({
+                        model: "gpt-3.5-turbo",
+                        messages: conversation,
+                    });
+
+                    console.log(response.choices[0].message.content.trim());
+                </code>
+            </pre>
+        </div>
+    </div>
+  </section>
+  
+  
+
+
+  <!-- end food section -->
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <div class="footer_contact">
+            <h4>
+              Contato
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +55 8498877-0099
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  iadevs@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <div class="footer_detail">
+            <a href="" class="footer-logo">
+              IADevs
+            </a>
+            <p>
+              O IADevs é uma plataforma pioneira, reunindo várias Inteligências Artificiais em um ambiente colaborativo. Essa iniciativa representa uma revolução digital, impulsionando a inovação ao permitir a interação e aprendizado conjunto entre diferentes IAs.
+            </p>
+            <div class="footer_social">
+              <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <h4>
+            Horário de funcionamento 
+          </h4>
+          <p>
+            Diariamente
+          </p>
+          <p>
+            24h
+          </p>
+        </div>
+      </div>
+      <div class="footer-info">
+        <p>
+          &copy; <span id="displayYear"></span> IADevs 
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- isotope js -->
+  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Obtém a lista de itens do menu de filtro
+      var filterItems = document.querySelectorAll(".filters_menu li");
+  
+      // Adiciona um ouvinte de clique a cada item do filtro
+      filterItems.forEach(function (item) {
+        item.addEventListener("click", function () {
+          // Remove a classe 'active' de todos os itens do filtro
+          filterItems.forEach(function (item) {
+            item.classList.remove("active");
+          });
+  
+          // Adiciona a classe 'active' ao item clicado
+          item.classList.add("active");
+  
+          // Obtém o valor do filtro associado ao item clicado
+          var filterValue = item.getAttribute("data-filter");
+  
+          // Obtém todos os itens de conteúdo
+          var contentItems = document.querySelectorAll(".filters-content .grid > div");
+  
+          // Remove a classe 'expanded' de todos os itens de conteúdo
+          contentItems.forEach(function (contentItem) {
+            contentItem.classList.remove("expanded");
+          });
+  
+          // Adiciona a classe 'expanded' apenas ao item de conteúdo correspondente ao filtro clicado
+          document.querySelector(filterValue).classList.add("expanded");
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
